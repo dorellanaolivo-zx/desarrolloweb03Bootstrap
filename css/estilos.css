@@ -11,22 +11,31 @@ body{
   color: #ffb84d;
 }
 
-.header{
-margin-top: 5px;
+.header, nav, section{
+  margin-top: 5px;
 	background-color: #e3f2fd;
 }
 
-nav{
-    margin-top: 5px;
-    background-color: #e3f2fd;
+nav a{
+  color: #0B0B3B;
 }
-
 nav a:hover{
   background-color: #ffb84d;
+  color: white;
 }
 
 .header img{
   width: 200px;
   height: 150px;
   margin: 4px;
+}
+
+.row{
+  margin: 10px 10px 10px 10px;
+}
+
+section img{
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
 }
